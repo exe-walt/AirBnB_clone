@@ -1,6 +1,6 @@
 # 0x00. AirBnB clone - The console
 
 
-##				Structure
+## --------------------------------Structure------------------------------------
 
 * [Introduction](#Introduction)
