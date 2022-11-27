@@ -70,5 +70,6 @@ Some of the commands understood by the interpreter are the following:
 | **count** | Retrieve the number of instances of a class.  |
 | **Usage** | **<class name\>.count()** |
 
+## Authors
 Paul Walter Adansi  <paul.adansi25@gmail.com>
 Ephraim Igbinosa    <ephraimigbinosa@gmail.com>
