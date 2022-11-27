@@ -273,6 +273,6 @@ e952b772-80a5-41e9-b728-6bc4dc5c21b4
     <ul>
     <li><a href="https://www.github.com/Ephraim69">Github</a></li>
     <li><a href="https://www.linkedin.com/in/osadebamwen">Linkedin</a></li>
-    <li><a href="mailto:ephraimigbinosa@gmail.com">e-mail</a></li>
+    <li><a href="mailto:ephraimigbinosa@gmail.com">Gmail</a></li>
     </ul>
 </details>
