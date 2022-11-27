@@ -265,7 +265,7 @@ e952b772-80a5-41e9-b728-6bc4dc5c21b4
     <ul>
     <li><a href="https://www.github.com/exe-walt">Github</a></li>
     <li><a href="https://www.twitter.com/_Walterr__">Twitter</a></li>
-    <li><a href="mailto:paul.adansi25@gmail.com">e-mail</a></li>
+    <li><a href="mailto:paul.adansi25@gmail.com">Gmail</a></li>
     </ul>
 </details>
 <details>
