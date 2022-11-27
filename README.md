@@ -5,7 +5,7 @@
 
 * [Introduction](#Introduction)
 
-
+Team project to build a clone of [AirBnB](https://www.airbnb.com/).
 
 
 
