@@ -6,7 +6,7 @@
 * [Introduction](#Introduction)
 * [Storage](#Storage)
 * [Installation](#Installation)
-* [Testing](Testing)
+* [Testing](#Testing)
 
 The team project is to build a clone of [AirBnB](https://www.airbnb.com/).
 
