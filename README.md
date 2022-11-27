@@ -198,7 +198,6 @@ To run the tests in non-interactive mode, and discover all the test, you can use
 python3 -m unittest discover tests
 ```
 
-
 ## 0x05 Usage
 
 * Start the console in interactive mode:
@@ -212,8 +211,6 @@ $ ./console.py
 
 ```bash
 (hbnb) help
-
-
 
 
 ## Authors
@@ -233,9 +230,3 @@ $ ./console.py
     <li><a href="mailto: ephraimigbinosa@gmail.com">e-mail</a></li>
     </ul>
 </details>
-
-
-
-## Authors
-Paul Walter Adansi  <paul.adansi25@gmail.com>
-Ephraim 
