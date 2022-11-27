@@ -1,23 +1,19 @@
 # 0x00. AirBnB clone - The console
 
-
-## -------------------------------------Structure-------------------------------------
+## 0x00.Table of contents
 
 * [Introduction](#Introduction)
-* [Storage](#Storage)
+* [Environment](#Environment)
 * [Installation](#Installation)
 * [Testing](#Testing)
-
-The team project is to build a clone of [AirBnB](https://www.airbnb.com/).
-
-
+* [Usage](#Usage)
+* [Authors](#Authors)
 
 ## Introduction
 
+The team project is to build a clone of [AirBnB](https://www.airbnb.com/).
 
 The console is a command interpreter to manage objects abstraction between objects and how they are stored.
-
-To see the fundamental background of the project visit the [Wiki](https://github.com/ralexrivero/AirBnB_clone/wiki).
 
 The console will perform the following tasks:
 
@@ -26,77 +22,20 @@ The console will perform the following tasks:
 * do operations on objects
 * destroy an object
 
-## Usage:
-The console will display a prompt (hbnb). The user wcan then write and execute commands.
-```
-$ ./console.py
-(hbnb) help
-
-Documented commands (type help <topic>):
-========================================
-EOF  help  quit
-
-(hbnb) 
-(hbnb) 
-(hbnb) quit
-$
-```
-
-## Some available commands and their functions
-
-Some of the commands understood by the interpreter are the following:
-
-|Command| Description |
-|--|--|
-| **quit or EOF** | Exits the program |
-| **Usage** | By itself |
-| **-----** | **-----** |
-| **help** | Provides a text describing how to use a command.  |
-| **Usage** | By itself --or-- **help <command\>** |
-| **-----** | **-----** |
-| **create** | Creates a new instance of a valid `Class`, saves it (to the JSON file) and prints the `id`.  Valid classes are: BaseModel, User, State, City, Amenity, Place, Review. |
-| **Usage** | **create <class name\>**|
-| **-----** | **-----** |
-| **show** | Prints the string representation of an instance based on the class name and `id`  |
-| **Usage** | **show <class name\> <id\>** --or-- **<class name\>.show(<id\>)**|
-| **-----** | **-----** |
-| **destroy** | Deletes an instance based on the class name and `id` (saves the change into a JSON file).  |
-| **Usage** | **destroy <class name\> <id\>** --or-- **<class name>.destroy(<id>)** |
-| **-----** | **-----** |
-| **all** | Prints all string representation of all instances based or not on the class name.  |
-| **Usage** | By itself or **all <class name\>** --or-- **<class name\>.all()** |
-| **-----** | **-----** |
-| **update** | Updates an instance based on the class name and `id` by adding or updating attribute (saves the changes into a JSON file).  |
-| **Usage** | **update <class name\> <id\> <attribute name\> "<attribute value\>"** ---or--- **<class name\>.update(<id\>, <attribute name\>, <attribute value\>)** --or-- **<class name\>.update(<id\>, <dictionary representation\>)**|
-| **-----** | **-----** |
-| **count** | Retrieve the number of instances of a class.  |
-| **Usage** | **<class name\>.count()** |
-
 ### Storage
+
 All the classes are handled by the `Storage` engine in the `FileStorage` Class.
 
 ## Environment
 
 <!-- ubuntu -->
-<a href="https://ubuntu.com/" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=Ubun\
-tu&color=E95420&logo=Ubuntu&logoColor=E95420&labelColor=2F333A" alt="Suite CRM"></a> <!-- bash --> <a href="https://www\
-.gnu.org/software/bash/" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=GNU%20Bas\
-h&color=4EAA25&logo=GNU%20Bash&logoColor=4EAA25&labelColor=2F333A" alt="terminal"></a> <!-- python--> <a href="https://\
-www.python.org" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=Python&color=FFD43\
-B&logo=python&logoColor=3776AB&labelColor=2F333A" alt="python"></a> </a> <!-- vim --> <a href="https://www.vim.org/" ta\
-rget="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=Vim&color=019733&logo=Vim&logoColor=\
-019733&labelColor=2F333A" alt="Suite CRM"></a> <!-- vs code --> <a href="https://code.visualstudio.com/" target="_blank\
-"> <img height="" src="https://img.shields.io/static/v1?label=&message=Visual%20Studio%20Code&color=5C2D91&logo=Visual%\
-20Studio%20Code&logoColor=5C2D91&labelColor=2F333A" alt="Suite CRM"></a> </a><!-- git --> <a href="https://git-scm.com/\
-" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=Git&color=F05032&logo=Git&logoCo\
-lor=F05032&labelColor=2F333A" alt="git distributed version control system"></a> <!-- github --> <a href="https://github\
-.com" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=GitHub&color=181717&logo=Git\
-Hub&logoColor=f2f2f2&labelColor=2F333A" alt="Github"></a>
+<a href="https://ubuntu.com/" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=Ubuntu&color=E95420&logo=Ubuntu&logoColor=E95420&labelColor=2F333A" alt="Suite CRM"></a> <!-- bash --> <a href="https://www.gnu.org/software/bash/" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=GNU%20Bash&color=4EAA25&logo=GNU%20Bash&logoColor=4EAA25&labelColor=2F333A" alt="terminal"></a> <!-- python--> <a href="https://www.python.org" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=Python&color=FFD43B&logo=python&logoColor=3776AB&labelColor=2F333A" alt="python"></a> </a> <!-- vim --> <a href="https://www.vim.org/" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=Vim&color=019733&logo=Vim&logoColor=019733&labelColor=2F333A" alt="Suite CRM"></a> <!-- vs code --> <a href="https://code.visualstudio.com/" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=Visual%20Studio%20Code&color=5C2D91&logo=Visual%20Studio%20Code&logoColor=5C2D91&labelColor=2F333A" alt="Suite CRM"></a> </a><!-- git --> <a href="https://git-scm.com/" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=Git&color=F05032&logo=Git&logoColor=F05032&labelColor=2F333A" alt="git distributed version control system"></a> <!-- github --> <a href="https://github.com" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=GitHub&color=181717&logo=GitHub&logoColor=f2f2f2&labelColor=2F333A" alt="Github"></a>
  <!-- Style guidelines -->
 * Style guidelines:
-  * [pycodestyle (version 2.7.*)](https://pypi.org/project/pycodestyle/)
+  * [pycodestyle (version 2.10.*)](https://pypi.org/project/pycodestyle/)
   * [PEP8](https://pep8.org/)
 
+All the development and testing was runned over an operating system Ubuntu 20.04 LTS using programming language Python 3.11.0 The editors used were EMACS 28.2., VSCode 1.73 and Atom 1.60.0 . Control version using Git 2.7.4.
 
 ## Installation
 
@@ -118,31 +57,38 @@ In interactive mode
 $ ./console.py
 (hbnb) help
 
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
 
-### Documentation
-
-* Modules:
-
-```python
-python3 -c 'print(__import__("my_module").__doc__)'
+(hbnb)
+(hbnb)
+(hbnb) quit
+$
 ```
 
-* Classes:
+in Non-interactive mode
 
-```python
-python3 -c 'print(__import__("my_module").MyClass.__doc__)'
-```
+```bash
+$ echo "help" | ./console.py
+(hbnb)
 
-* Functions (inside and outside a class):
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb)
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
 
-```python
-python3 -c 'print(__import__("my_module").my_function.__doc__)'
-```
-
-and
-
-```python
-python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb)
+$
 ```
 
 ## Testing
@@ -198,20 +144,121 @@ To run the tests in non-interactive mode, and discover all the test, you can use
 python3 -m unittest discover tests
 ```
 
-## 0x05 Usage
+
+## Usage
 
 * Start the console in interactive mode:
 
 ```bash
 $ ./console.py
 (hbnb)
+```
 
-``
 * Use help to see the available commands:
 
 ```bash
 (hbnb) help
 
+Documented commands (type help <topic>):
+========================================
+EOF  all  count  create  destroy  help  quit  show  update
+
+(hbnb)
+```
+
+* Quit the console:
+
+```bash
+(hbnb) quit
+$
+```
+
+### Commands
+
+> The commands are displayed in the following format *Command / usage / example with output*
+
+* Create
+
+> *Creates a new instance of a given class. The class' ID is printed and the instance is saved to the file file.json.*
+
+```bash
+create <class>
+
+```
+
+```bash
+(hbnb) create BaseModel
+6cfb47c4-a434-4da7-ac03-2122624c3762
+(hbnb)
+```
+
+* Show
+
+```bash
+show <class> <id>
+```
+
+```bash
+(hbnb) show BaseModel 6cfb47c4-a434-4da7-ac03-2122624c3762
+[BaseModel] (a) [BaseModel] (6cfb47c4-a434-4da7-ac03-2122624c3762) {'id': '6cfb47c4-a434-4da7-ac03-2122624c3762', 'created_at': datetime.datetime(2021, 11, 14, 3, 28, 45, 571360), 'updated_at': datetime.datetime(2021, 11, 14, 3, 28, 45, 571389)}
+(hbnb)
+```
+
+* Destroy
+
+> *Deletes an instance of a given class with a given ID.*
+> *Update the file.json*
+
+```bash
+(hbnb) create User
+0c98d2b8-7ffa-42b7-8009-d9d54b69a472
+(hbnb) destroy User 0c98d2b8-7ffa-42b7-8009-d9d54b69a472
+(hbnb) show User 0c98d2b8-7ffa-42b7-8009-d9d54b69a472
+** no instance found **
+(hbnb)
+```
+
+* all
+
+> *Prints all string representation of all instances of a given class.*
+> *If no class is passed, all classes are printed.*
+
+```bash
+(hbnb) create BaseModel
+e45ddda9-eb80-4858-99a9-226d4f08a629
+(hbnb) all BaseModel
+["[BaseModel] (4c8f7ebc-257f-4ed1-b26b-e7aace459897) [BaseModel] (4c8f7ebc-257f-4ed1-b26b-e7aace459897) {'id': '4c8f7ebc-257f-4ed1-b26b-e7aace459897', 'created_at': datetime.datetime(2021, 11, 13, 22, 19, 19, 447155), 'updated_at': datetime.datetime(2021, 11, 13, 22, 19, 19, 447257), 'name': 'My First Model', 'my_number': 89}"]
+["[BaseMode
+```
+
+* count
+
+> *Prints the number of instances of a given class.*
+
+```bash
+(hbnb) create City
+4e01c33e-2564-42c2-b61c-17e512898bad
+(hbnb) create City
+e952b772-80a5-41e9-b728-6bc4dc5c21b4
+(hbnb) count City
+2
+(hbnb)
+```
+
+* update
+
+> *Updates an instance based on the class name, id, and kwargs passed.*
+> *Update the file.json*
+
+```bash
+(hbnb) create User
+1afa163d-486e-467a-8d38-3040afeaa1a1
+(hbnb) update User 1afa163d-486e-467a-8d38-3040afeaa1a1 email "aysuarex@gmail.com"
+(hbnb) show User 1afa163d-486e-467a-8d38-3040afeaa1a1
+[User] (s) [User] (1afa163d-486e-467a-8d38-3040afeaa1a1) {'id': '1afa163d-486e-467a-8d38-3040afeaa1a1', 'created_at': datetime.datetime(2021, 11, 14, 23, 42, 10, 502157), 'updated_at': datetime.datetime(2021, 11, 14, 23, 42, 10, 502186), 'email': 'ephraimigbinosa@gmail.com'}, 'email': 'paul.adansi25@gmail.com'}
+(hbnb)
+
+```
 ## Authors
 <details>
     <summary>Paul Walter Adansi</summary>
