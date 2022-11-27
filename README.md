@@ -212,7 +212,6 @@ $ ./console.py
 ```bash
 (hbnb) help
 
-
 ## Authors
 <details>
     <summary>Paul Walter Adansi</summary>
@@ -227,6 +226,6 @@ $ ./console.py
     <ul>
     <li><a href="https://www.github.com/Ephraim69">Github</a></li>
     <li><a href="https://www.linkedin.com/in/osadebamwen">Linkedin</a></li>
-    <li><a href="mailto: ephraimigbinosa@gmail.com">e-mail</a></li>
+    <li><a href="mailto:ephraimigbinosa@gmail.com">e-mail</a></li>
     </ul>
 </details>
